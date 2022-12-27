@@ -1,0 +1,15 @@
+﻿@page "/fetchdata"
+@using CSharpSharedData;
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<DataGrid PageSize="1000" Data="@forecasts" TItem="WeatherForecast">
+    <DataGridColumns>
+        <DataGridColumn TItem="WeatherForecast" Field=@nameof(WeatherForecast.LastRendered) Caption="Last rendered" />
+        <DataGridColumn TItem="WeatherForecast" Field=@nameof(WeatherForecast.Date) Caption="Date" />
+        <DataGridColumn TItem="WeatherForecast" Field=@nameof(WeatherForecast.TemperatureC) Caption="Temp C" />
+        <DataGridColumn TItem="WeatherForecast" Field=@nameof(WeatherForecast.TemperatureF) Caption="Temp F" />
+        <DataGridColumn TItem="WeatherForecast" Field=@nameof(WeatherForecast.Summary) Caption="Summary" />
+    </DataGridColumns>
+</DataGrid>
