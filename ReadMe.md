@@ -8,6 +8,10 @@ I have used `N/A` for the `Group` column where the library automatically collaps
 after grouping, as this would be an unfair metric considering the other
 libraries expand by default and therefore have more work to do.
 
+## Note
+I have sinus problems, so there will be coughing and snorting in the videos.
+
+## Results
 |Library|Initial display|Group|Expand/Collapse|Video|
 |-------|----------------------|----------------|---------------|-----|
 |Blazor-Telerik|7 seconds |11 seconds|6 seconds|[Telerik](https://youtu.be/MHsX0sODAiQ)|
