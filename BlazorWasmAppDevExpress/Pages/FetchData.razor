@@ -1,0 +1,16 @@
+﻿@page "/fetchdata"
+@using CSharpSharedData
+@using DevExpress.Blazor
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<DxDataGrid Data=@forecasts ShowGroupPanel=@true PageSize=500>
+	<Columns>
+		<DxDataGridColumn Field=@nameof(WeatherForecast.LastRendered)></DxDataGridColumn>
+		<DxDataGridColumn Field=@nameof(WeatherForecast.Date)></DxDataGridColumn>
+		<DxDataGridColumn Field=@nameof(WeatherForecast.TemperatureC)></DxDataGridColumn>
+		<DxDataGridColumn Field=@nameof(WeatherForecast.TemperatureF)></DxDataGridColumn>
+		<DxDataGridColumn Field=@nameof(WeatherForecast.Summary)></DxDataGridColumn>
+	</Columns>
+</DxDataGrid>
