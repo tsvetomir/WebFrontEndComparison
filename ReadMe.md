@@ -19,4 +19,5 @@ I have sinus problems, so there will be coughing and snorting in the videos.
 |Blazor-DevExpress|6 seconds|N/A|7 seconds|[DevExpress](https://www.youtube.com/watch?v=IxM9kCKyHyQ)|
 |Blazor-Radzen|11 seconds|10 seconds|2 seconds|[Radzen](https://youtu.be/6KAeRU4BS18)|
 |Blazor-MudBlazor|3 seconds|N/A|1.5 seconds|[MudBlazor](https://youtu.be/UrRAmYbczw40)|
+|Blazor-FlexOne|8 seconds|2 seconds|1 second|[FlexOne](https://youtu.be/q6rB51P6A8A)|
 |Angular-Telerik|TO DO | TO DO | TO DO| TO DO|
